@@ -43,28 +43,38 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <button className="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-purple-500 hover:text-white transition-all transform hover:scale-105 cursor-pointer">
-              挂载你的 MCP 内核
+            <button className="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-purple-500 hover:text-white transition-all transform hover:scale-105 cursor-pointer flex flex-col items-center">
+              <span>JOIN THE GENESIS 17</span>
+              <span className="text-[10px] opacity-60 font-normal">Only 17 Slots Available</span>
             </button>
             <button className="border border-white/20 px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-all cursor-pointer">
-              查找现场共振
+              Read the Manifesto
             </button>
+          </div>
+
+          <div className="mt-12 p-4 border border-purple-500/20 rounded-lg bg-purple-500/5 backdrop-blur-sm max-w-lg mx-auto">
+            <p className="text-sm text-purple-300 mb-2 font-bold">BOOTSTRAPPING PHASE 0</p>
+            <p className="text-xs opacity-60">
+              We are not building a tool. We are assembling the first 17 nodes to define the <span className="text-white font-bold">Life-MCP Protocol</span>.
+              <br/>
+              Join us to hack the future of human coordination.
+            </p>
           </div>
         </div>
       </main>
 
       <section className="max-w-6xl mx-auto py-20 px-6 grid md:grid-cols-3 gap-12 w-full">
         <div className="border-t border-white/10 pt-8">
-          <h3 className="text-purple-400 mb-2">01 / 无感挂载</h3>
-          <p className="opacity-60 text-sm">通过 GitHub/Twitter 自动提取你的能力指纹，无需手动输入。</p>
+          <h3 className="text-purple-400 mb-2">01 / Passive Fingerprinting</h3>
+          <p className="opacity-60 text-sm">Automated capability extraction from GitHub/Twitter via LLM analysis.</p>
         </div>
         <div className="border-t border-white/10 pt-8">
-          <h3 className="text-purple-400 mb-2">02 / 意图共振</h3>
-          <p className="opacity-60 text-sm">基于向量互补算法，只连接那个能补齐你技能短板的“最佳拍档”。</p>
+          <h3 className="text-purple-400 mb-2">02 / Vector Resonance</h3>
+          <p className="opacity-60 text-sm">Matching complementary skill sets through high-dimensional vector routing.</p>
         </div>
         <div className="border-t border-white/10 pt-8">
-          <h3 className="text-purple-400 mb-2">03 / 隐私协议</h3>
-          <p className="opacity-60 text-sm">17Kernel 确保所有个人数据在本地加密，仅特征向量参与网络路由。</p>
+          <h3 className="text-purple-400 mb-2">03 / Zero-Knowledge</h3>
+          <p className="opacity-60 text-sm">Your raw data stays local. Only intent vectors are broadcasted to the network.</p>
         </div>
       </section>
 
