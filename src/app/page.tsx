@@ -47,9 +47,9 @@ export default function Home() {
               <span>JOIN THE GENESIS 17</span>
               <span className="text-[10px] opacity-60 font-normal">Only 17 Slots Available</span>
             </button>
-            <button className="border border-white/20 px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-all cursor-pointer">
+            <Link href="/protocol" className="border border-white/20 px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-all cursor-pointer inline-flex items-center justify-center">
               Read the Manifesto
-            </button>
+            </Link>
           </div>
 
           <div className="mt-12 p-4 border border-purple-500/20 rounded-lg bg-purple-500/5 backdrop-blur-sm max-w-lg mx-auto">
