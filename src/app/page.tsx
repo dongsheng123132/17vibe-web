@@ -4,11 +4,24 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col selection:bg-purple-500 selection:text-white">
       <nav className="p-6 flex justify-between items-center max-w-6xl mx-auto w-full">
-        <div className="text-2xl font-bold tracking-tighter">17Kernel<span className="text-purple-500">.</span></div>
+        <div className="text-2xl font-bold tracking-tighter">
+          17Vibe<span className="text-purple-500">.</span>
+        </div>
         <div className="space-x-8 text-sm opacity-60">
-          <Link href="#" className="hover:opacity-100 transition">Protocol</Link>
-          <Link href="#" className="hover:opacity-100 transition">Network</Link>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition">GitHub</a>
+          <Link href="/protocol" className="hover:opacity-100 transition">
+            Protocol
+          </Link>
+          <Link href="/network" className="hover:opacity-100 transition">
+            Network
+          </Link>
+          <a
+            href="https://github.com/dongsheng123132/17vibe-web"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-100 transition"
+          >
+            GitHub
+          </a>
         </div>
       </nav>
 
@@ -56,7 +69,7 @@ export default function Home() {
       </section>
 
       <footer className="py-10 text-center text-xs opacity-30">
-        &copy; 2026 17Kernel Protocol. Powered by Vibe Coding.
+        &copy; 2026 17Vibe. Protocol by 17Kernel.
       </footer>
     </div>
   );
