@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 17Vibe: The Coordination Layer
 
-## Getting Started
+> **"Connect Pure Intent."**
 
-First, run the development server:
+17Vibe is not a hiring platform. It is an intent-native coordination layer built for the Vibe Coding era. We replace resumes with high-dimensional vector routing, matching humans based on their digital soul (GitHub commits, shipping speed, and aesthetic sensibility).
 
+## 🚀 Genesis 17 Phase
+We are currently bootstrapping the network. We are NOT looking for users. We are looking for the **First 17 Genesis Nodes** to define the protocol.
+
+- **Status**: Bootstrapping (Phase 0)
+- **Goal**: Define the [17Kernel Protocol](../site-17kernel)
+- **Slots**: 17/17 (Open for Application)
+
+## 🛠 Tech Stack
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS (Cyberpunk/Dark Mode)
+- **Animation**: CSS Native Pulse Radar
+- **Deployment**: Vercel
+
+## ⚡ Quick Start
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Ecosystem
+- **Application**: [17vibe.com](https://17vibe.com)
+- **Protocol**: [17kernel.org](https://17kernel.org)
